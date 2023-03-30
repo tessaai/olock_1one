@@ -1,0 +1,148 @@
+* {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+body {
+  background-color: #eee;
+  padding: 5rem 9%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #222;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.colors-container {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.colors-container .color-box h2 {
+  background-color: black;
+  color: #fff;
+  padding: 5rem 5rem;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.colors-container .color-box {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+.container {
+  padding: 3rem;
+}
+
+.container #clock h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container #clock {
+  width: 20rem;
+  height: 20rem;
+  position: relative;
+  margin: 5rem auto;
+}
+
+.container #clock .clock-face {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 3px dotted black;
+}
+
+.container #clock .clock-face .number {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container #clock .clock-face .top {
+  top: 1rem;
+  left: 47%;
+}
+
+.container #clock .clock-face .right {
+  top: 47%;
+  right: 1rem;
+}
+
+.container #clock .clock-face .bottom {
+  bottom: 1rem;
+  left: 47%;
+}
+
+.container #clock .clock-face .left {
+  top: 47%;
+  left: 1rem;
+}
+
+.container #clock .clock-face .hour-hand {
+  width: 30%;
+  height: 0.4rem;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+}
+
+.container #clock .clock-face .min-hand {
+  width: 40%;
+  height: 0.3rem;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+}
+
+.container #clock .clock-face .second-hand {
+  width: 50%;
+  height: 0.2rem;
+  background-color: green;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+}
